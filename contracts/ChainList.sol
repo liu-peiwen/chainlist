@@ -54,7 +54,7 @@ contract ChainList {
     return articleCounter;
   }
 
-  // fetch adn return all article ids for articles still for sale
+  // fetch and return all article ids for articles still for sale
   function getArticlesForSale() public view returns (uint[]) {
     // prepare output array
     uint[] memory articleIds = new uint[](articleCounter);
